@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "xTectonic",
+    "version": "1.0.0",
+    "description": "Tectonic Style Customization.",
+
+    "content_scripts": [
+
+        {
+
+            "css": [ "/style/css/style.css" ],
+
+            "js": [ "script.js" ],
+
+            "matches": [ "https://app.tectonic.finance/*" ]
+
+        }
+
+    ]
+
+}

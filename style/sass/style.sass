@@ -1,0 +1,41 @@
+@import 'util/color'
+
+@import url( "https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" )
+
+*, *::before, *::after
+    font-family: "Urbanist", sans-serif !important
+
+body.bg-background
+    background-color: $charcoal !important
+
+nav.bg-darkPrimary
+    background-color: $charcoal !important
+    box-shadow: 0 .4rem .5rem -.5rem $onyx
+
+div.bg-darkPrimary
+    background-color: $charcoal !important
+    border-color: rgba( 0, 0, 0, 0 ) !important
+    box-shadow: 0 .4rem .5rem -.5rem $onyx
+
+    *, *::before, *::after
+        background-color: $charcoal !important
+        background-image: none !important
+
+div.bg-gradient-to-r
+    background-image: none !important
+    box-shadow: 0 0 .5rem .1rem $onyx !important
+    --tw-gradient-from: none !important
+    --tw-gradient-to: none !important
+    --tw-gradient-stops: none !important
+    --tw-shadow: none !important
+    --tw-shadow-colored: none !important
+
+    div.bg-surface
+        background-color: $charcoal !important
+        border-color: rgba( 0, 0, 0, 0 ) !important
+
+span.bg-elevatedSurface
+    background-color: $onyx !important
+
+div.table-cell
+    padding: 8px !important
